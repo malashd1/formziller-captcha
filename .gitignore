@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Secrets / environment
+.env
+.env.*
+*.pem
+*.key
+secrets/
+credentials*
+
+# Local profiles & caches (Chrome user data dirs)
+profiles/
+.cache/
+.ms-playwright/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
